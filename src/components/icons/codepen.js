@@ -10,13 +10,9 @@ const IconCodepen = () => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="feather feather-codepen">
-    <title>CodePen</title>
-    <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
-    <line x1="12" y1="22" x2="12" y2="15.5"></line>
-    <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
-    <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
-    <line x1="12" y1="2" x2="12" y2="8.5"></line>
+    className="feather feather-kaggle">
+    <title>Kaggle</title>
+    <path d="M6.5 2h-2v20h2v-8l4.5 8h3L9.5 13l4.5-7h-3L6.5 11V2z"></path>
   </svg>
 );
 
