@@ -1,12 +1,13 @@
 const config = require('./src/config');
 
 module.exports = {
+
   siteMetadata: {
     title: 'Vishwa Gopal',
     description:
       'Vishwa Gopal is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://vishgoki.github.io', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '/og.png',
     twitterUsername: '@bchiang7',
   },
   plugins: [
@@ -18,7 +19,7 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-manifest`,  
       options: {
         name: 'Vishwa Gopal',
         short_name: 'Vishwa Gopal',

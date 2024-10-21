@@ -46,6 +46,11 @@ const StyledCredit = styled.div`
   font-size: var(--fz-xxs);
   line-height: 1;
 
+  div {
+    font-size: var(--fz-xxxs); /* Reduce the font size */
+    margin: 5px 0; /* Adjust margin to make it more compact */
+  }
+
   a {
     padding: 10px;
   }
@@ -105,22 +110,8 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
-          <div>Designed &amp; Built by Brittany Chiang</div>
-          <div>Revised by Vishwa Gopal</div>
-
-          {githubInfo.stars && githubInfo.forks && (
-            <div className="github-stats">
-              <span>
-                <Icon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
-              </span>
-              <span>
-                <Icon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
-              </span>
-            </div>
-          )}
+        <a href="https://github.com/vishgoki">
+          <div>Designed by Brittany Chiang, Revised &amp; Updated by Vishwa Gopal</div>
         </a>
       </StyledCredit>
     </StyledFooter>

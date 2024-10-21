@@ -134,6 +134,26 @@ const StyledTabPanels = styled.div`
   @media (max-width: 600px) {
     margin-left: 0;
   }
+  .project-tech-list {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 20px 0 0 0;
+    list-style: none;
+
+    li {
+      font-family: var(--font-mono);
+      font-size: var(--fz-xxs);
+      line-height: 1.75;
+
+      &:not(:last-of-type) {
+        margin-right: 15px;
+      }
+    }
+  }
+
 `;
 
 const StyledTabPanel = styled.div`
@@ -142,6 +162,10 @@ const StyledTabPanel = styled.div`
   padding: 10px 5px;
 
   ul {
+    ${({ theme }) => theme.mixins.fancyList};
+  }
+
+  .bullets {
     ${({ theme }) => theme.mixins.fancyList};
   }
 
@@ -162,6 +186,9 @@ const StyledTabPanel = styled.div`
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
   }
+  .tech-list-element {
+    list-style-type: none;
+  }
 `;
 
 const Jobs = () => {
@@ -179,6 +206,7 @@ const Jobs = () => {
               location
               range
               url
+              tech
             }
             html
           }
@@ -273,12 +301,13 @@ const Jobs = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
+              const { title, url, company, range, tech} = frontmatter;
 
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
                   <StyledTabPanel
                     id={`panel-${i}`}
+                    className="bullets"
                     role="tabpanel"
                     tabIndex={activeTabId === i ? '0' : '-1'}
                     aria-labelledby={`tab-${i}`}
@@ -295,7 +324,15 @@ const Jobs = () => {
                     </h3>
 
                     <p className="range">{range}</p>
-
+                    <header>
+                      {tech && (
+                        <ul className="project-tech-list">
+                          {tech.map((tech, i) => (
+                            <li className="tech-list-element" key={i}>{tech}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </header>
                     <div dangerouslySetInnerHTML={{ __html: html }} />
                   </StyledTabPanel>
                 </CSSTransition>
