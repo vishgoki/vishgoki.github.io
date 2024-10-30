@@ -143,7 +143,7 @@ const About = () => {
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://www.capgemini.com/">Capgemini Technology Services</a> & {' '}
+              <a href="https://www.capgemini.com/">Capgemini</a> & {' '}
               <a href="https://www.ibm.com/">IBM</a>{' '}
             </p>
 

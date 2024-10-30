@@ -65,13 +65,14 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m working on developing software applications and machine learning applications at{' '}
-      <a href="https://www.nyu.edu/" target="_blank" rel="noreferrer">
-        New York University
-      </a>
-      .
-    </p>
+        I am an AI and full-stack engineer with expertise in machine learning, data analysis, and scalable software development, specializing in transforming complex data into intelligent, 
+        user-focused applications. Using tools like Python, TensorFlow, AWS, and Spring Boot, I create solutions that drive impactful results and enhance user experiences. Explore my projects 
+        to see how I blend data, design, and development to build solutions for the future. Currently, I’m pursuing my Master’s in Computer Science at {' '}
+        <a href="https://www.nyu.edu/" target="_blank" rel="noreferrer">
+          New York University
+        </a>
+        , set to graduate in May 2025.
+      </p>
     </>
   );
   const five = (
@@ -83,8 +84,18 @@ const Hero = () => {
       Find me on LinkedIn!
     </a>
   );
+  const six = (
+    <a
+      className="email-link"
+      href="https://github.com/vishgoki"
+      target="_blank"
+      rel="noreferrer">
+      Checkout my GitHub!
+    </a>
+  );
 
-  const items = [one, two, three, four, five];
+
+  const items = [one, two, three, four, five, six];
 
   return (
     <StyledHeroSection>
