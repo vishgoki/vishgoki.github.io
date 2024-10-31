@@ -8,7 +8,7 @@ module.exports = {
       'Vishwa Gopal is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://vishgoki.github.io', // No trailing slash allowed!
     image: '/og.png',
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@visgoki',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -153,7 +153,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'GTM-K2XZM9FG',
       },
     },
   ],
