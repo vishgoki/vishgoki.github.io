@@ -151,14 +151,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingIds: [
-          "G-681HSNL5BX", // Replace with your Google Analytics ID
-        ],
-        pluginConfig: {
-          head: true, // Puts the script in the <head>
-        },
+        trackingId: 'GTM-K2XZM9FG',
       },
     },
   ],
