@@ -353,7 +353,7 @@ const Featured = () => {
 
       <StyledProjectsGrid>
         {featuredProjects &&
-          featuredProjects.slice(0, 2).map(({ node }, i) => {
+          featuredProjects.slice(0, 3).map(({ node }, i) => {
             const { frontmatter, html } = node;
             const { external, title, tech, github, cover, cta } = frontmatter;
             const image = getImage(cover);
