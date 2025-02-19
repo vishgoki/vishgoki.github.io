@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'NASSegNet'
 cover: './demo.png'
 github: 'https://github.com/vishgoki/nas-seg-net/tree/nas-nuclei'
