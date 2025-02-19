@@ -5,11 +5,10 @@ cover: './demo.png'
 github: 'https://github.com/vishgoki/'
 external: ''
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - React
+  - AWS
+  - Node.js
+  - OpenAI
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+A full-stack health and wellness web app using React, Node.js, Flask, and AWS, enabling users to track fitness data and receive AI-driven health insights.
