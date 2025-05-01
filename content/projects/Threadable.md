@@ -1,6 +1,7 @@
 ---
 date: '3'
 title: 'Modified Efficient ResNet'
+cta: 'Click here'
 github: 'https://github.com/vishgoki/DL-Mini-Project'
 external: 'https://github.com/vishgoki/DL-Mini-Project'
 tech:

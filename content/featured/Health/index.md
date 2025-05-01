@@ -1,6 +1,7 @@
 ---
 date: '1'
 title: 'HealthSync'
+cta: 'Click here'
 cover: './demo.png'
 github: 'https://github.com/vishgoki/'
 external: ''

@@ -1,6 +1,7 @@
 ---
 date: '2'
 title: 'Probabilty of Default Predictor'
+cta: 'Click here'
 cover: './demo.png'
 github: 'https://github.com/vishgoki/probability-of-default-predictor'
 external: ''

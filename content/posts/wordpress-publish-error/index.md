@@ -1,5 +1,6 @@
 ---
 title: WordPress Publishing Error
+cta: 'Click here'
 description: Trying to create a simple post in WordPress
 date: 2019-12-03
 draft: false

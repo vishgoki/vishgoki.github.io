@@ -1,6 +1,7 @@
 ---
 date: '3'
 title: 'NASSegNet'
+cta: 'Click here'
 cover: './demo.png'
 github: 'https://github.com/vishgoki/nas-seg-net/tree/nas-nuclei'
 external: ''

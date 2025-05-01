@@ -1,5 +1,6 @@
 ---
 title: Accessible Clickable Cards
+cta: 'Click here'
 description: Clickable cards with multiple child links
 date: 2021-04-21
 draft: false

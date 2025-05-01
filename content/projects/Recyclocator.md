@@ -1,6 +1,7 @@
 ---
 date: '1'
 title: 'Recyclocator'
+cta: 'Click here'
 github: 'https://github.com/vishgoki/Garbage-Classification-using-Tensorflow'
 external: 'https://github.com/vishgoki/Garbage-Classification-using-Tensorflow'
 tech:

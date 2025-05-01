@@ -1,5 +1,6 @@
 ---
 title: Docker Compose Error
+cta: 'Click here'
 description: docker-compose version discrepancies
 date: '2019-12-13'
 draft: false

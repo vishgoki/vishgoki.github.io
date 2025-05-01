@@ -1,6 +1,7 @@
 ---
 date: '2'
 title: 'Chatbot'
+cta: 'Click here'
 github: 'https://github.com/vishgoki/training-a-chatbot-using-weights-and-biases'
 external: 'https://github.com/vishgoki/training-a-chatbot-using-weights-and-biases'
 tech:
